@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="50px"
+    android:paddingRight="50px"
+    android:paddingBottom="50px"
+    android:paddingTop="50px"
+    android:background="@drawable/shape_4_20"
+    android:orientation="vertical">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/dialog_title"
+            android:text=""/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="30px"
+            android:textColor="#000000"
+            android:id="@+id/dialog_content"
+            android:text=""/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/dialog_edit"
+            android:hint=""/>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20px"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel"
+                android:textColor="#3AADFB"
+                android:layout_toLeftOf="@+id/confirm"
+                android:layout_marginRight="30px"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirm"
+                android:textColor="#3AADFB"
+                android:layout_alignParentRight="true"
+                android:text=""/>
+            
+        </RelativeLayout>
+        
+
+
+
+</LinearLayout>
+</layout>
